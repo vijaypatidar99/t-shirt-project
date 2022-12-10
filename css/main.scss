@@ -1,0 +1,147 @@
+//
+// The SCSS for the t shirt site website.
+// Left column which holds the boxes to change the type
+// of the t shirt. Right column holds the t shirt picture.
+//
+
+$colour-background: #eee;
+$colour-panel: #fefefe;
+$colour-banner: #6f5499;
+$colour-text: #111;
+$colour-text-header: #fff;
+
+.right {
+  float: right;
+}
+
+body {
+  background-color: $colour-background;
+  font-family: Arial;
+  font-size: 15px;
+  margin: 0;
+}
+
+.wrapper {
+  background-color: $colour-panel;
+  color: $colour-text;
+  margin: auto;
+  min-width: 1000px;
+  width: 80%;
+}
+
+header,
+footer {
+  background-color: $colour-banner;
+  border: 2px double $colour-banner;
+  color: $colour-text-header;
+  text-align: center;
+}
+
+header {
+  font-size: 20px;
+}
+
+footer {
+  font-size: 10px;
+  font-style: italic;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Text on the shirt */
+/* Makes spaces in the text box go into normal spaces
+  as the user perceives them */
+.shirttext {
+  bottom: 220px;
+  left: 128px;
+  position: relative;
+  text-align: center;
+  width: 120px;
+  word-wrap: break-word;
+}
+
+/* The picture placed on the shirt e.g. apple */
+.pic {
+  position: absolute;
+  right: 195px;
+  top: 115px;
+  visibility: hidden;
+}
+
+/* T shirt picture  */
+.tShirt {
+  margin: 40px;
+  position: relative;
+}
+
+section {
+  padding: 50px;
+}
+
+.options {
+  width: 400px;
+}
+
+.order {
+  width: 100%;
+  display: inline-block;
+
+  table {
+    line-height: 20px;
+    margin: 3px;
+    padding: 10px;
+    display: inline-flex;
+    width: 40%;
+  }
+
+  .button {
+    margin-top: 30px;
+    width: 40%;
+    float: right;
+  }
+}
+
+form {
+
+  select,
+  input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 32px;
+    padding: 7px;
+    font-size: 14px;
+    color: #555;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    margin-bottom: 15px;
+  }
+
+  label {
+    display: inline-block;
+    margin-bottom: 5px;
+  }
+}
+
+
+table th {
+  padding-bottom: 10px;
+}
+
+
+.button {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  color: #555;
+  cursor: pointer;
+  padding: 6px 12px;
+}
+
+.button-success {
+  background-color: #5cb85c;
+  border: 1px solid #5cb85d;
+  color: #fff;
+}
+
+.button-success:hover {
+  background-color: #449d44;
+}
