@@ -12,7 +12,7 @@ HTML, CSS, PHP and JavaScript were used in this project.
 
 
 
-Extent to which specified functionality is provided 39/40:
+Extent to which specified functionality is provided 
 - Image can be chosen: 2
 - T-shirt colour can be chosen 1
 
@@ -34,7 +34,7 @@ Browser independence of the solution:
 - The website appears consistently with IE and Chrome
 
 
-Use of valid HTML and appropriate use of CSS for styling – 10/10
+Use of valid HTML and appropriate use of CSS for styling – 
 - HMTL is valid
 - Extent to which external CSS is used? Good use of external CSS
 
@@ -44,6 +44,6 @@ Usability and aesthetics of the website –
 - Is style kept consistent? yes
 - Aesthetics -  visually appealing design with professional look limited styling -1.5
 
-Report (about 500 words)
 
-Some description of the implementation and technologies used but more detail is needed
+
+
