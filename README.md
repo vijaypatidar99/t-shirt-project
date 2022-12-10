@@ -10,11 +10,7 @@ For a University of Nottingham module I created a T-Shirt site in which the user
 HTML, CSS, PHP and JavaScript were used in this project.
 
 
-### Mark
 
-Grade result: 86.5%
-
-Implementation of the dynamic website: 70.5/75
 
 Extent to which specified functionality is provided 39/40:
 - Image can be chosen: 2
@@ -28,12 +24,12 @@ Extent to which specified functionality is provided 39/40:
 - The order data is saved in a file or a database?   7
 
 
-Robustness and reliability of the solution 5/5:
+Robustness and reliability of the solution :
 - The website works consistently
 - User entered data is validated
 
 
-Browser independence of the solution 8/10:
+Browser independence of the solution:
 - The website does not works with both IE and Chrome -2 for no validation
 - The website appears consistently with IE and Chrome
 
@@ -43,11 +39,11 @@ Use of valid HTML and appropriate use of CSS for styling – 10/10
 - Extent to which external CSS is used? Good use of external CSS
 
 
-Usability and aesthetics of the website – 8.5/10
+Usability and aesthetics of the website –
 - Is functionality split across a number of clear steps? yes
 - Is style kept consistent? yes
 - Aesthetics -  visually appealing design with professional look limited styling -1.5
 
-Report (about 500 words) – 16/25
+Report (about 500 words)
 
 Some description of the implementation and technologies used but more detail is needed
